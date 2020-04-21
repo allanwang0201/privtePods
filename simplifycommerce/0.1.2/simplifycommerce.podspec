@@ -28,7 +28,7 @@ simplify commerce payment by commonbank
   s.source           = { :git => 'https://github.com/allanwang0201/simplifycommerce.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.1'
+   s.platform     = :ios, "9.3"
 
   s.source_files = 'simplifycommerce/Classes/**/*.{swift}'
   s.resource_bundles = {
